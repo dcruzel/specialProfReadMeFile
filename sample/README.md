@@ -17,7 +17,6 @@ Each time the index.js is run. The README File will be overwritten.
 [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 ## Contributing
 As stated in the assignment requirements.
-
 ## Tests
 1. Test for the Github link 2. Check if the links in the Table of Contents works.
 ## Questions
