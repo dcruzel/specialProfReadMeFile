@@ -38,8 +38,8 @@ Inputs
 - Github username
 - Email
 ```
+## Tests
 ```md
-Tests
 - A badge for license near the top of the README
 - Under Questions, a link to my GitHub profile
 - The links to the Table of Contents refers back to the README file sections
