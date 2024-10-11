@@ -37,37 +37,44 @@ For additional questions, please reach me at ${email} or [${gitHubUsername}](htt
     newinquirer
   .prompt([
     {
+      //The project title prompt
       type: 'input',
       name: 'projectTitle',
       message: 'What is the project title?',
     },
     {
+      //The project description prompt
         type: 'input',
         name: 'description',
         message: 'What is your project description?',
       },
     {
+      //The install instructions prompt
       type: 'input',
       name: 'installInstructions',
       message: 'What is the installation instructions?',
     },
     {
+      //The usage information prompt
       type: 'input',
       name: 'usage',
       message: 'What is the usage information?',
      
     },
     {
+      //The contribution guidelines prompt
         type: 'input',
         name: 'contributing',
         message: 'What is the contribution guidelines?',
     },
     {
+      //The test instructions prompt
         type: 'input',
         name: 'tests',
         message: 'What is the test instructions?',
     },
     {
+      //The license selection 
         type: 'list',
         name: 'licenseChoosen',
         message: 'What is the license',
@@ -76,11 +83,13 @@ For additional questions, please reach me at ${email} or [${gitHubUsername}](htt
             'The Perl License', 'The Unlicense']
     },
     {
+      //The github username prompt
         type: 'input',
         name: 'gitHubUsername',
         message: 'What is your GitHub username?',
     },
     {
+      //The email prompt
         type: 'input',
         name: 'email',
         message: 'What is your email?',
